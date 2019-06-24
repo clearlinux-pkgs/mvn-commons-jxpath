@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-jxpath
 Version  : 1.3
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
 Source0  : https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
 Source1  : https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.pom
@@ -29,11 +29,11 @@ data components for the mvn-commons-jxpath package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/h/1.3
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/h/1.3
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/commons-jxpath/1.3
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/commons-jxpath/1.3
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/h/1.3
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/h/1.3
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/commons-jxpath/1.3
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/commons-jxpath/1.3
 
 
 %files
@@ -41,5 +41,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-jxpath/h/1.3
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/commons-jxpath/h/1.3/commons-jxpath-1.3.jar
-/usr/share/java/.m2/repository/commons-jxpath/h/1.3/commons-jxpath-1.3.pom
+/usr/share/java/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
+/usr/share/java/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.pom
