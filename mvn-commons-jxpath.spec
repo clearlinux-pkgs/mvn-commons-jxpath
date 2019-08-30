@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-jxpath
 Version  : 1.3
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
 Source0  : https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
 Source1  : https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.pom
